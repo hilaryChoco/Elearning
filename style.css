@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 90px;
+}
+.navbar-brand{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.collapse{
+    margin-left: 80px;
+}
+.collapse .nav-link{
+    color: white !important;
+    font-family: poppins;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.hero-area {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+}
+.bg-overlay-2by5 {
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+    background-size: cover;
+}
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.8;
+}
+body {
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.menu1, .menu2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu1 a, .menu2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.menu1 a:hover, .menu2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.drop1:hover .menu1, .drop2:hover .menu2 {
+  display: block;
+}
+.menu2{
+    margin-left: 222px;
+    margin-top: -18px;
+}
+.carousel-inner{
+    height: 490px;
+}
+.carousel-item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.carousel-caption h5{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.carousel-caption h6{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+
+}
+.carousel-caption p{
+    font-size: 18px;
+    top:2rem ;
+    color: rgb(112, 112, 89);
+}
+.slider-btn{
+    margin-top: 20px;
+}
+.slider-btn .btn{
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+    font-size: 1rem;
+    margin-right: 15px;
+    transition: width 2s ease-in-out 1s;
+}
+.slider-btn .btn a{
+    color: white;
+    text-decoration: none;
+}
+.slider-btn .btn:hover{
+    background-color: rgb(228, 146, 39);
+    width: 240px;
+}
+.course-info h3{
+    cursor: pointer;
+}
+.teams{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+#team{
+    background-color: #fae398;
+}
+#team img{
+    margin-top: -70px;
+    height: 150px;
+    border:6px dotted white;
+}
+#team i{
+    font-size: 26px;
+    color: #ff9933;
+}
+#team p{
+    font-weight: 50px;
+}
+#team .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 10px #f8a34e;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+#team .card:hover{
+    background: #f8a34e;
+    color: #fff;
+    border:none;
+    box-shadow: 5px 5px 10px #f6a85a;
+}
+#team .card:hover img{
+    border: 6px dashed #f8a34e;
+}
+#team .card:hover h3, #team .card:hover i{
+    color: #ffff00;
+}
+#team h5{
+    color: #ff9933;
+}
+.hero-area h1{
+    color: #ff9933;
+    font-weight: bolder;
+    font-family: poppins;
+}
+.course-info{
+    border-bottom: 1px solid black;
+}
+.footer-title{
+    border-bottom: 4px dashed rgb(251, 251, 251);
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer .fa-phone, .footer .fa-whatsapp{
+    margin-left: -93px;
+}
+.footer a{
+    margin-left: 20px;
+}
+.slider-stat div{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .registration-form{
+    background-image: url('img/img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.registration{
+    margin-top: 85px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+  }
+.modal1{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}
+.registration .form-group{
+    margin-bottom: 10px;
+}
+.registration input, .registration select{
+    height: 50px;
+}
+.registration label{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+}
+#avatar-label{
+    width: 125px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 12%;
+}
+#avatar-label span{
+    position: relative;
+    right: 30%;
+}
+
+.formation_view{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    padding: 10px;
+
+}
+
+.formation_view_left{
+    flex: 0.7;
+    padding-left: 20px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid blue;
+}
+
+.formation_view_right{
+    flex: 0.3;
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+nav .mon_image{
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
