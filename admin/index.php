@@ -46,6 +46,11 @@ session_start();
                                <span>Formations</span>
                     </a>
                 </li>
+                <li class="side-formations"  onclick="window.location.assign('class.php')">
+                    <a><span class="las la-chalkboard"></span>
+                               <span>class</span>
+                    </a>
+                </li>
                 <li class="side-messages" onclick="window.location.assign('messages.php')">
                     <a><span class="las la-sms"></span>
                                <span>Message</span>

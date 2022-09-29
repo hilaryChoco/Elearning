@@ -12,6 +12,7 @@ session_start();
     <title>WISE</title>
     <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -33,6 +34,11 @@ session_start();
                 <li class="side-instructors" onclick="window.location.assign('formateurs.php')">
                     <a><span class="las la-chalkboard-teacher"></span>
                                <span>Formateurs</span>
+                    </a>
+                </li>
+                <li class="side-formations"  onclick="window.location.assign('class.php')">
+                    <a class="active"><span class="las la-chalkboard"></span>
+                               <span>Class</span>
                     </a>
                 </li>
                 <li class="side-students" onclick="window.location.assign('apprenants.php')">

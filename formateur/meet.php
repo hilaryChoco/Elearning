@@ -29,5 +29,6 @@ const options = {
     parentNode: document.querySelector('#meet')
 };
 const api = new JitsiMeetExternalAPI(domain, options);
+</script>
 </body>
 </html>

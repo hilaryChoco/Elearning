@@ -34,6 +34,7 @@ session_start();
                                <span>Dashboard</span>
                     </a>
                 </li>
+                
                 <li class="side-instructors" onclick="window.location.assign('formateurs.php')">
                     <a><span class="las la-chalkboard-teacher"></span>
                                <span>Formateurs</span>
@@ -47,6 +48,11 @@ session_start();
                 <li class="side-formations"  onclick="window.location.assign('formations.php')">
                     <a><span class="las la-chalkboard"></span>
                                <span>Formations</span>
+                    </a>
+                </li>
+                <li class="side-formations"  onclick="window.location.assign('class.php')">
+                    <a class="active"><span class="las la-chalkboard"></span>
+                               <span>Class</span>
                     </a>
                 </li>
                 <li class="side-messages" onclick="window.location.assign('messages.php')">

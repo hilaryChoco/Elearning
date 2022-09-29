@@ -43,6 +43,11 @@
                                <span>Message</span>
                     </a>
                 </li>
+                <li class="side-formations"  onclick="window.location.assign('class.php')">
+                    <a class="active"><span class="las la-chalkboard"></span>
+                               <span>Class</span>
+                    </a>
+                </li>
                 <li class="side-forums" onclick="window.location.assign('forums.php')">
                     <a><span class="lab la-rocketchat"></span>
                                <span>Forums</span>

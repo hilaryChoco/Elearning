@@ -54,6 +54,11 @@ $name = $_SESSION['username'];
                                <span>Programmes</span>
                     </a>
                 </li>
+                <li class="side-formations"  onclick="window.location.assign('class.php')">
+                    <a class="active"><span class="las la-chalkboard"></span>
+                               <span>Class</span>
+                    </a>
+                </li>
                 <p>Personnel</p>
                 <li class="side-account" onclick="window.location.assign('compte.php')">
                     <a><span class="las la-user-circle"></span>

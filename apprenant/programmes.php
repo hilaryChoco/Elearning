@@ -52,6 +52,11 @@ $memorises = $db->query("SELECT * from users WHERE login = '$name' ");
                                <span>Forums</span>
                     </a>
                 </li>
+                <li class="side-formations"  onclick="window.location.assign('class.php')">
+                    <a class="active"><span class="las la-chalkboard"></span>
+                               <span>Class</span>
+                    </a>
+                </li>
                 <li class="side-notifications" onclick="window.location.assign('programmes.php')">
                     <a class="active"><span class="las la-tasks"></span>
                                <span>Programmes</span>
